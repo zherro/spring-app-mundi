@@ -35,3 +35,29 @@ insert into tb_order (product_name, negotiated_value, delivery_date, product_uri
         'Um clássico da literatura mundial, esta obra é uma poderosa denúncia a todos os tipos de injustiça humana. Narra a emocionante história de Jean Valjean ― o homem que, por ter roubado um pão, é condenado a dezenove anos de prisão. Os miseráveis é um livro inquietantemente religioso e político, com uma das narrativas mais envolventes já criadas.',
         'DELIVERED'
         );
+
+
+
+insert into tb_order (product_name, negotiated_value, delivery_date, product_uri, product_image, description, status )
+    values('Os miseráveis Capa dura – 7 outubro 2014', 68.00, '2021-12-20',
+        'https://www.amazon.com.br/Os-Miser%C3%A1veis-Victor-Hugo/dp/8544000002/ref=asc_df_8544000002/?tag=googleshopp00-20&linkCode=df0&hvadid=379749006424&hvpos=&hvnetw=g&hvrand=1761182007575960899&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001602&hvtargid=pla-786135647257&psc=1',
+        'https://images-na.ssl-images-amazon.com/images/I/51rEZlikPkL._SX362_BO1,204,203,200_.jpg',
+        'Um clássico da literatura mundial, esta obra é uma poderosa denúncia a todos os tipos de injustiça humana. Narra a emocionante história de Jean Valjean ― o homem que, por ter roubado um pão, é condenado a dezenove anos de prisão. Os miseráveis é um livro inquietantemente religioso e político, com uma das narrativas mais envolventes já criadas.',
+        'WAITING'
+        );
+
+insert into tb_order (product_name, negotiated_value, delivery_date, product_uri, product_image, description, status  )
+    values('Os miseráveis Capa dura – 7 outubro 2014', 68.00, '2021-12-20',
+        'https://www.amazon.com.br/Os-Miser%C3%A1veis-Victor-Hugo/dp/8544000002/ref=asc_df_8544000002/?tag=googleshopp00-20&linkCode=df0&hvadid=379749006424&hvpos=&hvnetw=g&hvrand=1761182007575960899&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001602&hvtargid=pla-786135647257&psc=1',
+        'https://images-na.ssl-images-amazon.com/images/I/51rEZlikPkL._SX362_BO1,204,203,200_.jpg',
+        'Um clássico da literatura mundial, esta obra é uma poderosa denúncia a todos os tipos de injustiça humana. Narra a emocionante história de Jean Valjean ― o homem que, por ter roubado um pão, é condenado a dezenove anos de prisão. Os miseráveis é um livro inquietantemente religioso e político, com uma das narrativas mais envolventes já criadas.',
+        'APPROVED'
+        );
+
+insert into tb_order (product_name, negotiated_value, delivery_date, product_uri, product_image, description, status  )
+    values('Os miseráveis Capa dura – 7 outubro 2014', 68.00, '2021-12-20',
+        'https://www.amazon.com.br/Os-Miser%C3%A1veis-Victor-Hugo/dp/8544000002/ref=asc_df_8544000002/?tag=googleshopp00-20&linkCode=df0&hvadid=379749006424&hvpos=&hvnetw=g&hvrand=1761182007575960899&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001602&hvtargid=pla-786135647257&psc=1',
+        'https://images-na.ssl-images-amazon.com/images/I/51rEZlikPkL._SX362_BO1,204,203,200_.jpg',
+        'Um clássico da literatura mundial, esta obra é uma poderosa denúncia a todos os tipos de injustiça humana. Narra a emocionante história de Jean Valjean ― o homem que, por ter roubado um pão, é condenado a dezenove anos de prisão. Os miseráveis é um livro inquietantemente religioso e político, com uma das narrativas mais envolventes já criadas.',
+        'DELIVERED'
+        );
